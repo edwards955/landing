@@ -18,9 +18,9 @@ body {
 
 .hero-header {
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 16px;
-  margin-bottom: 48px;
+  margin-bottom: 100px;
 }
 
 .hero-content {

@@ -59,6 +59,7 @@ body {
 .header-logo {
   font-size: 24px;
   color: #F9FAF8;
+  font-weight: bold;
 }
 
 .header-links {
@@ -66,6 +67,38 @@ body {
   gap: 16px;
   margin: 0;
   padding: 0;
+}
+
+.information-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information {
+  display: flex;
+}
+
+.info-header-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.info-cell {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-image {
+  height: 150px;
+  width: 150px;
+  border: 4px solid #3882F6;
+  border-radius: 8px;
+}
+
+.info-text {
+  font-size: 18px;
 }
 
 .button {

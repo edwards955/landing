@@ -16,6 +16,25 @@ body {
   display: flex;
 }
 
+.hero-header {
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  margin-bottom: 48px;
+}
+
+.hero-content {
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 100px;
+}
+
+.hero-content-main, .placeholder {
+  width: 500px;
+  height: 250px;
+}
+
 .hero-main-text {
   font-size: 48px;
   font-weight: 900;
@@ -30,6 +49,13 @@ body {
 .header-logo {
   font-size: 24px;
   color: #F9FAF8;
+}
+
+.header-links {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 .button {
@@ -48,4 +74,8 @@ a {
 
 .placeholder {
   color: white;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

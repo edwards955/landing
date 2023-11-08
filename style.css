@@ -35,15 +35,25 @@ body {
   height: 250px;
 }
 
+.placeholder {
+  color: white;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-main-text {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
+  margin-bottom: 12px;
 }
 
 .hero-secondary-text {
   font-size: 18px;
   color: #E5E7EB;
+  margin-bottom: 12px;
 }
 
 .header-logo {
@@ -60,7 +70,12 @@ body {
 
 .button {
   background-color: #3882F6;
-  color: white;
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 36px;
 }
 
 ul {
@@ -72,10 +87,3 @@ a {
   color: white;
 }
 
-.placeholder {
-  color: white;
-  background-color: gray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

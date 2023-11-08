@@ -135,6 +135,43 @@ body {
   margin-bottom: 100px;
 }
 
+.action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  display: flex;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 48px 96px;
+  border-radius: 16px;
+  width: 900px;
+}
+
+.call-left {
+  flex-grow: 3;
+}
+
+.call-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.call-main-text {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.call-second-text {
+  font-size: 18px;
+}
+
 .button {
   background-color: #3882F6;
   color: #E5E7EB;
@@ -143,6 +180,10 @@ body {
   border: none;
   border-radius: 12px;
   padding: 8px 36px;
+}
+
+.action-button {
+  border: 2px solid white;
 }
 
 ul {
